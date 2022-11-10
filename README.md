@@ -18,4 +18,16 @@ COMP 495 Senior Project - Text Highlighter
                 suffix, textual unit, and also token's length
     - Step 5: Replace each identified prefix, root, suffix, with a 
                 standard form of the same.
-    - 
+    - Step 6: If there is an unselected token, select the token next
+                in sequence and return to Step 4.
+    - Step 7: Reselect the token selected in the third step.
+    - Step 8: If reselected token does not start a user-definable textual
+                unit, then print the reselected token in a first font,
+                reselecting the token next in sequence and repeating
+                Step 8. If no token, stop.
+    - Step 9: If reselected toekn does start a user-definable textual unit,
+                then the ninth step of the method is marking the reselected
+                token for highlighting, reselecting the token next in
+                sequence, and if no tken to reselect, then printing in the 
+                second font the reselected token marked for highlighting and stopping.
+    - Step 10: 
