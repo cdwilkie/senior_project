@@ -6,7 +6,7 @@
 
 /* Global Variables */
 extern int charClass;                           //Numeric code for character class
-extern char lexeme[100];                        //Holds lexeme to be tokenized
+extern char lexeme[60];                        //Holds lexeme to be tokenized
 extern char nextChar;                           //Holds value of next character in source string
 extern int lexLen;                              //Current length of the lexeme[]                              
 extern int nextToken;                           //Numeric code for token type, defined in TOKEN CODES

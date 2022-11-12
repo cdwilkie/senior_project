@@ -1,7 +1,7 @@
 #include "tokenGen.h"
 
 int charClass;
-char lexeme[100];
+char lexeme[60];
 char nextChar;
 int lexLen;
 int nextToken;
@@ -11,7 +11,7 @@ int nextToken;
  * index for use
 */
 void addChar() {
-    if (lexLen <= 98) {                         //If lexeme[] is not full
+    if (lexLen <= 58) {                         //If lexeme[] is not full
         lexeme[lexLen++] = nextChar;            //Add char to lexeme & inc lngth
         lexeme[lexLen] = 0;                     //Clear data in last index
     }//end if lexeme not full

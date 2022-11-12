@@ -10,6 +10,15 @@ COMP 495 Senior Project - Text Highlighter
     - Independent of character case
     - Should be able to find Names and highlight ("textual units")
 
+    - Data Structures:
+        - Array - Store and index each token as they appear in source file
+        - Unordered Map<string OR int, list>
+            - Would map the token type (identified with a string or int) to the indeces 
+              in Array that contain that token.
+
+    - Text Output
+        - Basic. May not preserve formatting for simplicity.
+
 * Process Described:
     - Step 1: Receive Text
     - Step 2: Identifying each token in the text
