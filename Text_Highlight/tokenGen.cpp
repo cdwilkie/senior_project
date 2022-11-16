@@ -6,6 +6,7 @@ char nextChar;
 int lexLen;
 int nextToken;
 
+
 /* addChar - Function to add nextChar to 
  * lexeme array and prepare the next array 
  * index for use
@@ -108,16 +109,12 @@ int lex() {
         case LETTER:                            //is Letter
             addChar();
             getChar();
+            
             while (charClass == LETTER || charClass == DIGIT) { //Ltters or nums
                 addChar();
                 getChar();
             }//end while next char lett | digit
-            if (strcmp(lexeme,"float") != 0) {  //If lexeme != float
-                nextToken = IDENT;              //Token is Ident
-            }
-            else {                              //Else lexeme is float
-                nextToken = KEYWORD;            //Token is keyword
-            }//end else lexeme keyword
+            nextToken = LET_NUM;
             break;
         case DIGIT:                             //First char digit
             addChar();
@@ -131,6 +128,7 @@ int lex() {
         case UNKNOWN:                           //Unknown Symbol
             lookup(nextChar);                   //Check lookup Table
             getChar();                          //Get next char
+            std::cout << "IN THE UNKNOWN ZONE" << std::endl;
             break;
         case EOF:                               //END OF FILE FLAG
             nextToken = EOF;                    //Set EOF flag in nextToken
@@ -142,5 +140,10 @@ int lex() {
     }//end switch(charClass)
     std::cout << "Next token is: " << nextToken //Output Results of Lex Anlyzr
             << ", Next lexeme is " << lexeme <<"\n";
+
+
+    
     return nextToken;                           //Return nextToken to caller
+
+
 }//end lex()
