@@ -10,6 +10,7 @@ struct Token {
     int tokenType;
     std::string word;
 };
+
 /* Global Variables */
 extern int charClass;                           //Numeric code for character class
 extern char lexeme[60];                        //Holds lexeme to be tokenized
@@ -31,7 +32,7 @@ extern FILE *in_fp, *fopen();                   //File pointer to source file
 #define ASSIGN_OP 20                            // Assignment Operator =
 #define LEFT_PAREN 21                           // Left Parenthesis (
 #define RIGHT_PAREN 22                          // Right Parenthesis )
-#define ASTERISK 23                             // *
+#define ASTERISK 23                             // Asterisk *
 #define DIV_OP 24                               // Division /
 #define HASH_TAG 25                             // HashTag/Octothorpe #
 #define ADD_OP 26                               // Addition +
@@ -42,12 +43,11 @@ extern FILE *in_fp, *fopen();                   //File pointer to source file
 #define PERIOD 33                               // Period .
 #define COMMA 34                                // Comma ,
 #define HYPHEN 35                               // Hyphen -
-#define EXCLAIM 36                              // Exclaimation Point
+#define EXCLAIM 36                              // Exclaimation Point !
 #define COLON 37                                // Colon :
 #define ASPERAND 40                             // Asperand @
 #define AMPERSAND 41                            // Ampersand &
 #define CARAT 42                                // Carat ^
-
 
 
 void addChar();

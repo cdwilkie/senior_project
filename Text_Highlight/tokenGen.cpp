@@ -142,8 +142,8 @@ int lookup (char ch) {
 /******************************************/
 
 
-/* lex - Simple LEXICAL ANALYZER for arithmetic
-* exprssions.  Analyzes the lexeme and returns
+/* lex - Simple LEXICAL ANALYZER for text
+* files.  Analyzes the lexeme and returns
 * token type
 */
 int lex() {
@@ -191,18 +191,3 @@ int lex() {
 
 }//end lex()
 
-int lex2() {
-    lexLen = 0;
-    getNonBlank();
-    switch (charClass) {
-        case LETTER:
-            break;
-        case DIGIT:
-            break;
-        case UNKNOWN:
-            break;
-        case EOF:
-            break;
-    }
-    return nextToken;
-}
