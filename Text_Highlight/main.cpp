@@ -4,14 +4,24 @@
    
 FILE *in_fp, *fopen();
 
+//boldON allows the console to output text in BOLD
 std::ostream& boldOn(std::ostream& os) {
     return os << "\e[1m";
 }//end boldOn
 
+//boldOff allows the console to cease BOLD output
 std::ostream& boldOff(std::ostream& os) {
     return os << "\e[0m";
-}
+}//end boldOff
 
+
+/* Driver code for Text Highlighter.
+ * Main reads the contents of an accesible file
+ * and creates a token for each word. Program 
+ * collects from user a search keyword and updates
+ * list of tokens with every located identical match
+ * Console outputs matched keywords in bold and outfile
+ * has written to it the results as well*/
 int main (int argc, char** argv) {
     
     std::vector<Token> storedTokens;            //Will store each token
@@ -81,12 +91,6 @@ int main (int argc, char** argv) {
         std::cout << std::endl;                 //Clear buffer.
         
     }//end else file can be read
-
-
-
-
-
-
 
     return 0;
 }//end main()
