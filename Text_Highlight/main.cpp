@@ -4,11 +4,21 @@
    
 FILE *in_fp, *fopen();
 
+std::ostream& boldOn(std::ostream& os) {
+    return os << "\e[1m";
+}//end boldOn
+
+std::ostream& boldOff(std::ostream& os) {
+    return os << "\e[0m";
+}
 
 int main (int argc, char** argv) {
     
     std::vector<Token> storedTokens;            //Will store each token
     std::string keyword;                        //User defined search keyword
+    std::string outfile;                        //User defined outfile name
+    
+/************ Reading filename from Command Line and Scanning ***********/
 
     if (argc < 2) {                             //If missing command-line args
         std::cout << "Expected filename argument" << std::endl;
@@ -22,10 +32,10 @@ int main (int argc, char** argv) {
 
     else {                                      //Else file opened in read mode
         std::cout << argv[1] << " opened successfully!" << std::endl;
-
         std::cout << "\nPlease enter the search argument" << std::endl;
         std::cin >> keyword;                    //Store user defined keyword
 
+/************** Generate tokens for each word in file *******************/
 
         getChar();                              //Get first character of file
         do {
@@ -38,7 +48,8 @@ int main (int argc, char** argv) {
 
         } while (nextToken != EOF);             //Continue until end of file
     
-        
+/************* Iterate through TOKENS to find KEYWORD *******************/
+
         std::cout << "Scanning Tokens for Keyword: " << std::endl;
 
         for (int i = 0; i < storedTokens.size(); ++i ) { //Iterate through tokens
@@ -46,16 +57,30 @@ int main (int argc, char** argv) {
                     strcmp(storedTokens[i].word.c_str(), keyword.c_str()) == 0) {
                 storedTokens[i].tokenType = KEYWORD;    //Update token type
             }//end if token == keyword
-            std::cout << storedTokens[i].tokenType << " "
-                << storedTokens[i].word << std::endl;
         }//end for check for keyword
-        
+
+/************ Collect outfile name and write contents to file ***********/
+
+        std::cout << "Enter a filename for output" << std::endl;
+        std::cin >> outfile;                    //Collect user outfile name
+        std::ofstream outs(outfile);            //Outfile stream
         for (int i =0; i < storedTokens.size(); ++i) {
-            std::cout << storedTokens[i].word << " ";
-        }
-        std::cout << std::endl;
+            if (i % 10 == 0) {
+                outs << "\n";
+                std::cout << "\n";
+            }
+            if (storedTokens[i].tokenType == 15) {
+                outs << "***" << storedTokens[i].word << "***" << " "; //Output to console in bold
+                std::cout << boldOn << storedTokens[i].word << boldOff << " ";//Write to outfile with markers
+            }//end if keyword token
+            else {
+                outs << storedTokens[i].word << " ";//Output to console
+                std::cout << storedTokens[i].word << " ";//Write to outfile
+            }//end else no match
+        }//end for iterate through tokens for output
+        std::cout << std::endl;                 //Clear buffer.
         
-    }
+    }//end else file can be read
 
 
 
@@ -64,4 +89,4 @@ int main (int argc, char** argv) {
 
 
     return 0;
-}
+}//end main()
