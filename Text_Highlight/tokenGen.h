@@ -27,17 +27,27 @@ extern FILE *in_fp, *fopen();                   //File pointer to source file
 #define UNKNWN 98                               //Symbol not defined in TOKEN CODES
 #define INT_LIT 10                              //Int literal
 #define LET_NUM 11                              // Letters & Nums
-#define SING_LET 12                             // Single Letter
-#define LETTERS 13                              // All alpha letters
-#define ASSIGN_OP 20                            //Assignment Operator =
-#define SEMI_COLON 30                           // ;
-#define MULT_OP 23                              // *
-#define DIV_OP 24                               // Division /
+#define KEYWORD 15                              // Keyword from User
+#define ASSIGN_OP 20                            // Assignment Operator =
 #define LEFT_PAREN 21                           // Left Parenthesis (
 #define RIGHT_PAREN 22                          // Right Parenthesis )
+#define ASTERISK 23                             // *
+#define DIV_OP 24                               // Division /
+#define HASH_TAG 25                             // HashTag/Octothorpe #
+#define ADD_OP 26                               // Addition +
+#define PERCENT 27                              // Percent %
+#define SEMI_COLON 30                           // SemiColon ;
 #define LEFT_BRACE 31                           // Left Curly Brace {
 #define RIGHT_BRACE 32                          // Right Curly Brace }
-#define KEYWORD 15                              // Keyword FLOAT
+#define PERIOD 33                               // Period .
+#define COMMA 34                                // Comma ,
+#define HYPHEN 35                               // Hyphen -
+#define EXCLAIM 36                              // Exclaimation Point
+#define COLON 37                                // Colon :
+#define ASPERAND 40                             // Asperand @
+#define AMPERSAND 41                            // Ampersand &
+#define CARAT 42                                // Carat ^
+
 
 
 void addChar();

@@ -45,7 +45,7 @@ void getChar() {
         else if (isdigit(nextChar)) {           //Else if char is digit
             charClass = DIGIT;
         }//end if digit
-        else {                                  //Else char is unknown
+        else {                                  //Else char is unknown symbol
             charClass = UNKNOWN;
         }//end if unknown
     }//end if !EOF
@@ -66,7 +66,7 @@ int lookup (char ch) {
             break;
         case '*':
             addChar();
-            nextToken = MULT_OP;
+            nextToken = ASTERISK;
             break;
         case '/':
             addChar();
@@ -87,6 +87,50 @@ int lookup (char ch) {
         case '}':
             addChar();
             nextToken = RIGHT_BRACE;
+            break;
+        case '.':
+            addChar();
+            nextToken = PERIOD;
+            break;
+        case ',':
+            addChar();
+            nextToken = COMMA;
+            break;
+        case '#':
+            addChar();
+            nextToken = HASH_TAG;
+            break;
+        case '-':
+            addChar();
+            nextToken = HYPHEN;
+            break;
+        case '+':
+            addChar();
+            nextToken = ADD_OP;
+            break;
+        case '%':
+            addChar();
+            nextToken = PERCENT;
+            break;
+        case '!':
+            addChar();
+            nextToken = EXCLAIM;
+            break;
+        case ':':
+            addChar();
+            nextToken = COLON;
+            break;
+        case '@':
+            addChar();
+            nextToken = ASPERAND;
+            break;
+        case '&':
+            addChar();
+            nextToken = AMPERSAND;
+            break;
+        case '^':
+            addChar();
+            nextToken = CARAT;
             break;
         default:
             addChar();
@@ -128,7 +172,6 @@ int lex() {
         case UNKNOWN:                           //Unknown Symbol
             lookup(nextChar);                   //Check lookup Table
             getChar();                          //Get next char
-            std::cout << "IN THE UNKNOWN ZONE" << std::endl;
             break;
         case EOF:                               //END OF FILE FLAG
             nextToken = EOF;                    //Set EOF flag in nextToken
@@ -147,3 +190,19 @@ int lex() {
 
 
 }//end lex()
+
+int lex2() {
+    lexLen = 0;
+    getNonBlank();
+    switch (charClass) {
+        case LETTER:
+            break;
+        case DIGIT:
+            break;
+        case UNKNOWN:
+            break;
+        case EOF:
+            break;
+    }
+    return nextToken;
+}
