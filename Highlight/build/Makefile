@@ -153,6 +153,30 @@ src/FileReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileReader.cpp.s
 .PHONY : src/FileReader.cpp.s
 
+src/UserInput.o: src/UserInput.cpp.o
+.PHONY : src/UserInput.o
+
+# target to build an object file
+src/UserInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInput.cpp.o
+.PHONY : src/UserInput.cpp.o
+
+src/UserInput.i: src/UserInput.cpp.i
+.PHONY : src/UserInput.i
+
+# target to preprocess a source file
+src/UserInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInput.cpp.i
+.PHONY : src/UserInput.cpp.i
+
+src/UserInput.s: src/UserInput.cpp.s
+.PHONY : src/UserInput.s
+
+# target to generate assembly for a file
+src/UserInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInput.cpp.s
+.PHONY : src/UserInput.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/FileReader.o"
 	@echo "... src/FileReader.i"
 	@echo "... src/FileReader.s"
+	@echo "... src/UserInput.o"
+	@echo "... src/UserInput.i"
+	@echo "... src/UserInput.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,8 +1,9 @@
 #include "../include/FileReader.h"
+#include "../include/UserInput.h"
 #include <iostream>
 
 int main () {
-    std::string filename = "../data/input2.txt";
+    std::string filename = UserInput::getFilename();
     auto lines = FileReader::readLines(filename);
 
 

@@ -4,6 +4,8 @@ project(highlight)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCES src/main.cpp include/FileReader.h src/FileReader.cpp)
+include_directories(include)
+
+file(GLOB SOURCES "src/*.cpp")
 
 add_executable(${PROJECT_NAME} ${SOURCES})
