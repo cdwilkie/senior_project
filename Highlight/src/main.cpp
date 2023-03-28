@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main () {
-    std::string filename = "../data/input.txt";
+    std::string filename = "../data/input2.txt";
     auto lines = FileReader::readLines(filename);
 
 
