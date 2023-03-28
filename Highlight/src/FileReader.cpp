@@ -17,7 +17,7 @@ std::vector<std::wstring> FileReader::readLines(const std::string& filename) {
     std::vector<std::wstring> lines;            //Vector to hold all unicode lines of text
     std::wifstream file(filename);              //Open filestream for unicode with filename
     if (!file) {                                //If file can't be opened
-        std::cerr << "Failed to open file: " << filename << std::endl;
+        throw std::runtime_error("Failed to open file " + filename); //Throw error
         return lines;                           //Return the empty vector
     }//end if file error
     std::wstring line;                          //Build wstring to hold a unicode line text

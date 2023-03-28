@@ -1,3 +1,6 @@
+/* UserInput class supports collecting data
+* from user via keyboard input / input stream
+*/
 #pragma once
 
 #include <string>
