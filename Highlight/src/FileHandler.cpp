@@ -1,8 +1,8 @@
 /*
-* FileReader class supports reading UTF-8 encoded
+* FileHandler class supports reading UTF-8 encoded
 * files. 
 */
-#include "../include/FileReader.h"
+#include "../include/FileHandler.h"
 #include <fstream>
 #include <iostream>
 
@@ -13,7 +13,7 @@
 * and appends each found line as new index in lines vector. 
 * Returns lines vector.
 */
-std::vector<std::wstring> FileReader::readLines(const std::string& filename) {
+std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
     std::vector<std::wstring> lines;            //Vector to hold all unicode lines of text
     std::wifstream file(filename);              //Open filestream for unicode with filename
     if (!file) {                                //If file can't be opened

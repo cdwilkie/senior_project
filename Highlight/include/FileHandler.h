@@ -1,12 +1,12 @@
 /*
-* FileReader class supports UTF-8 text source actions.
+* FileHandler class supports UTF-8 text source actions.
 */
 #pragma once
 
 #include <string>
 #include <vector>
 
-class FileReader {
+class FileHandler {
 public:
     /* readLines() static function accepts string filename as parameter.
     * Builds std::vector<std::wstring> to hold contents of each line
@@ -14,4 +14,4 @@ public:
     */
     static std::vector<std::wstring> readLines(const std::string& filename);
 
-};//end FileReader
+};//end FileHandler
