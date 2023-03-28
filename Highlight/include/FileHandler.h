@@ -14,4 +14,7 @@ public:
     */
     static std::vector<std::wstring> readLines(const std::string& filename);
 
+    static void writeLines(const std::string& filename,
+                const std::vector<std::wstring>& lines);
+
 };//end FileHandler

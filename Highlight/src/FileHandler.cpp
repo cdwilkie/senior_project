@@ -16,7 +16,7 @@
 std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
     std::vector<std::wstring> lines;            //Vector to hold all unicode lines of text
     std::wifstream file(filename);              //Open filestream for unicode with filename
-    if (!file) {                                //If file can't be opened
+    if (!file || !file.is_open()) {                                //If file can't be opened
         throw std::runtime_error("Failed to open file " + filename); //Throw error
         return lines;                           //Return the empty vector
     }//end if file error
@@ -25,4 +25,16 @@ std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
         lines.push_back(line);                  //Add extracted line to lines vector
     }//end while lines
     return lines;                               //Return the populated vector
+}
+
+void FileHandler::writeLines(const std::string& filename, 
+                const std::vector<std::wstring>& lines) {
+    std::wofstream file(filename);
+    if (!file.is_open() || !file) {
+        throw std::runtime_error("Faild to open file " + filename);
+    }
+    for (int i = 0; i < lines.size(); ++i) {
+        file << lines[i] << std::endl;
+    }
+
 }
