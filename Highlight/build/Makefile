@@ -129,29 +129,29 @@ highlight/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/build
 .PHONY : highlight/fast
 
-src/FileReader.o: src/FileReader.cpp.o
-.PHONY : src/FileReader.o
+src/FileHandler.o: src/FileHandler.cpp.o
+.PHONY : src/FileHandler.o
 
 # target to build an object file
-src/FileReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileReader.cpp.o
-.PHONY : src/FileReader.cpp.o
+src/FileHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileHandler.cpp.o
+.PHONY : src/FileHandler.cpp.o
 
-src/FileReader.i: src/FileReader.cpp.i
-.PHONY : src/FileReader.i
+src/FileHandler.i: src/FileHandler.cpp.i
+.PHONY : src/FileHandler.i
 
 # target to preprocess a source file
-src/FileReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileReader.cpp.i
-.PHONY : src/FileReader.cpp.i
+src/FileHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileHandler.cpp.i
+.PHONY : src/FileHandler.cpp.i
 
-src/FileReader.s: src/FileReader.cpp.s
-.PHONY : src/FileReader.s
+src/FileHandler.s: src/FileHandler.cpp.s
+.PHONY : src/FileHandler.s
 
 # target to generate assembly for a file
-src/FileReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileReader.cpp.s
-.PHONY : src/FileReader.cpp.s
+src/FileHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileHandler.cpp.s
+.PHONY : src/FileHandler.cpp.s
 
 src/UserInput.o: src/UserInput.cpp.o
 .PHONY : src/UserInput.o
@@ -210,9 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... highlight"
-	@echo "... src/FileReader.o"
-	@echo "... src/FileReader.i"
-	@echo "... src/FileReader.s"
+	@echo "... src/FileHandler.o"
+	@echo "... src/FileHandler.i"
+	@echo "... src/FileHandler.s"
 	@echo "... src/UserInput.o"
 	@echo "... src/UserInput.i"
 	@echo "... src/UserInput.s"

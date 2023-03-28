@@ -27,8 +27,7 @@ std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
     return lines;                               //Return the populated vector
 }
 
-void FileHandler::writeLines(const std::string& filename, 
-                const std::vector<std::wstring>& lines) {
+void FileHandler::writeLines(const std::string& filename, const std::vector<std::wstring>& lines) {
     std::wofstream file(filename);
     if (!file.is_open() || !file) {
         throw std::runtime_error("Faild to open file " + filename);
@@ -36,5 +35,6 @@ void FileHandler::writeLines(const std::string& filename,
     for (int i = 0; i < lines.size(); ++i) {
         file << lines[i] << std::endl;
     }
+    std::cout << "Lines written successfully to " << filename << std::endl;
 
 }

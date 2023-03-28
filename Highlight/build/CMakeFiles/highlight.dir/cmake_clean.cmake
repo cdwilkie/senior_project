@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/highlight.dir/src/FileReader.cpp.o"
-  "CMakeFiles/highlight.dir/src/FileReader.cpp.o.d"
+  "CMakeFiles/highlight.dir/src/FileHandler.cpp.o"
+  "CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o.d"
   "CMakeFiles/highlight.dir/src/main.cpp.o"

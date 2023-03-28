@@ -69,19 +69,19 @@ include CMakeFiles/highlight.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/highlight.dir/flags.make
 
-CMakeFiles/highlight.dir/src/FileReader.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/FileReader.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileReader.cpp
-CMakeFiles/highlight.dir/src/FileReader.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/highlight.dir/src/FileReader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/FileReader.cpp.o -MF CMakeFiles/highlight.dir/src/FileReader.cpp.o.d -o CMakeFiles/highlight.dir/src/FileReader.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileReader.cpp
+CMakeFiles/highlight.dir/src/FileHandler.cpp.o: CMakeFiles/highlight.dir/flags.make
+CMakeFiles/highlight.dir/src/FileHandler.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp
+CMakeFiles/highlight.dir/src/FileHandler.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/highlight.dir/src/FileHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/FileHandler.cpp.o -MF CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d -o CMakeFiles/highlight.dir/src/FileHandler.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp
 
-CMakeFiles/highlight.dir/src/FileReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/FileReader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileReader.cpp > CMakeFiles/highlight.dir/src/FileReader.cpp.i
+CMakeFiles/highlight.dir/src/FileHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/FileHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp > CMakeFiles/highlight.dir/src/FileHandler.cpp.i
 
-CMakeFiles/highlight.dir/src/FileReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/FileReader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileReader.cpp -o CMakeFiles/highlight.dir/src/FileReader.cpp.s
+CMakeFiles/highlight.dir/src/FileHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/FileHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp -o CMakeFiles/highlight.dir/src/FileHandler.cpp.s
 
 CMakeFiles/highlight.dir/src/UserInput.cpp.o: CMakeFiles/highlight.dir/flags.make
 CMakeFiles/highlight.dir/src/UserInput.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp
@@ -113,14 +113,14 @@ CMakeFiles/highlight.dir/src/main.cpp.s: cmake_force
 
 # Object files for target highlight
 highlight_OBJECTS = \
-"CMakeFiles/highlight.dir/src/FileReader.cpp.o" \
+"CMakeFiles/highlight.dir/src/FileHandler.cpp.o" \
 "CMakeFiles/highlight.dir/src/UserInput.cpp.o" \
 "CMakeFiles/highlight.dir/src/main.cpp.o"
 
 # External object files for target highlight
 highlight_EXTERNAL_OBJECTS =
 
-highlight: CMakeFiles/highlight.dir/src/FileReader.cpp.o
+highlight: CMakeFiles/highlight.dir/src/FileHandler.cpp.o
 highlight: CMakeFiles/highlight.dir/src/UserInput.cpp.o
 highlight: CMakeFiles/highlight.dir/src/main.cpp.o
 highlight: CMakeFiles/highlight.dir/build.make
