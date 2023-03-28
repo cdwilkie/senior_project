@@ -9,8 +9,9 @@
 /* readLines() accepts string filename to instantiate
 * std::wifstream file object. Builds std::vector<std::wstring> "lines"
 * to store the contents of each line from the text source. 
-* Iterates through each line of text source with std::getline() and
-* appends each found line as new index in lines vector. Returns lines vector.
+* Iterates through each line of text source with std::getline() 
+* and appends each found line as new index in lines vector. 
+* Returns lines vector.
 */
 std::vector<std::wstring> FileReader::readLines(const std::string& filename) {
     std::vector<std::wstring> lines;            //Vector to hold all unicode lines of text

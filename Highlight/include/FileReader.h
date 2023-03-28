@@ -1,6 +1,5 @@
 /*
-* FileReader class supports extracting lines from filename text source
-* Returns vector<wstring> for UTF-8 support.
+* FileReader class supports UTF-8 text source actions.
 */
 #pragma once
 
