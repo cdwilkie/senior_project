@@ -1,6 +1,5 @@
 #include "../include/FileHandler.h"
 #include "../include/UserInput.h"
-#include <iostream>
 
 int main (int argc, char** argv) {
     std::vector<std::wstring> lines;
