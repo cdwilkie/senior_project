@@ -19,7 +19,7 @@ int main (int argc, char** argv) {
     FileHandler::writeLines(outFile, lines);    //Write lines to outfile
 
     //Test tokenizer
-    std::vector<std::vector<std::wstring>> tokens;//2-D Holds tokens from each line
+    std::vector<std::vector<Tokenizer::Token>> tokens;//2-D Holds tokens from each line
 
     for (int i = 0; i < lines.size(); ++i) {    //Iterate through each line
         tokens.push_back(Tokenizer::tokenize(lines[i]));//Tokenize each word and add to vector

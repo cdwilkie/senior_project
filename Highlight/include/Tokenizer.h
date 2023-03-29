@@ -5,7 +5,11 @@
 
 class Tokenizer {
 public:
-    static std::vector<std::wstring> tokenize (const std::wstring& stringInput);
+    struct Token {
+        std::wstring word;
+        int tokenID;
+    };
+    static std::vector<Token> tokenize (const std::wstring& stringInput);
 
 
 };
