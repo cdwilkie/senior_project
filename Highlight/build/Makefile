@@ -153,6 +153,30 @@ src/FileHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/FileHandler.cpp.s
 .PHONY : src/FileHandler.cpp.s
 
+src/Tokenizer.o: src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.o
+
+# target to build an object file
+src/Tokenizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.cpp.o
+
+src/Tokenizer.i: src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.i
+
+# target to preprocess a source file
+src/Tokenizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.cpp.i
+
+src/Tokenizer.s: src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.s
+
+# target to generate assembly for a file
+src/Tokenizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.cpp.s
+
 src/UserInput.o: src/UserInput.cpp.o
 .PHONY : src/UserInput.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/FileHandler.o"
 	@echo "... src/FileHandler.i"
 	@echo "... src/FileHandler.s"
+	@echo "... src/Tokenizer.o"
+	@echo "... src/Tokenizer.i"
+	@echo "... src/Tokenizer.s"
 	@echo "... src/UserInput.o"
 	@echo "... src/UserInput.i"
 	@echo "... src/UserInput.s"
