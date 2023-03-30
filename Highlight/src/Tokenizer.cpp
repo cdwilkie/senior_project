@@ -10,7 +10,7 @@ std::vector<Tokenizer::Token> Tokenizer::tokenize (const std::wstring& stringInp
     while (wiss >> std::ws >> tokenWord) {
         Tokenizer::Token token;
         token.word = tokenWord;
-        //fix this
+        //fix this below \/
         token.tokenID = 0;
         tokens.push_back(token);
     }
