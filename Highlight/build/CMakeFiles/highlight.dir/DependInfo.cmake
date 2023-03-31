@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp" "CMakeFiles/highlight.dir/src/FileHandler.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp" "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d"
+  "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp" "CMakeFiles/highlight.dir/src/UnitTest.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp" "CMakeFiles/highlight.dir/src/UserInput.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/UserInput.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp" "CMakeFiles/highlight.dir/src/main.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/main.cpp.o.d"
   )

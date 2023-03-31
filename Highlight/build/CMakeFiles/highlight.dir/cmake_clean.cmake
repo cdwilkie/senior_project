@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d"
   "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o"
   "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d"
+  "CMakeFiles/highlight.dir/src/UnitTest.cpp.o"
+  "CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o.d"
   "CMakeFiles/highlight.dir/src/main.cpp.o"

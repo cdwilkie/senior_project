@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/dustinwilkie/Documents/GitHub/senior_project/highlight
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.26.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.26.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -177,6 +177,30 @@ src/Tokenizer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/Tokenizer.cpp.s
 .PHONY : src/Tokenizer.cpp.s
 
+src/UnitTest.o: src/UnitTest.cpp.o
+.PHONY : src/UnitTest.o
+
+# target to build an object file
+src/UnitTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UnitTest.cpp.o
+.PHONY : src/UnitTest.cpp.o
+
+src/UnitTest.i: src/UnitTest.cpp.i
+.PHONY : src/UnitTest.i
+
+# target to preprocess a source file
+src/UnitTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UnitTest.cpp.i
+.PHONY : src/UnitTest.cpp.i
+
+src/UnitTest.s: src/UnitTest.cpp.s
+.PHONY : src/UnitTest.s
+
+# target to generate assembly for a file
+src/UnitTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UnitTest.cpp.s
+.PHONY : src/UnitTest.cpp.s
+
 src/UserInput.o: src/UserInput.cpp.o
 .PHONY : src/UserInput.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... src/Tokenizer.o"
 	@echo "... src/Tokenizer.i"
 	@echo "... src/Tokenizer.s"
+	@echo "... src/UnitTest.o"
+	@echo "... src/UnitTest.i"
+	@echo "... src/UnitTest.s"
 	@echo "... src/UserInput.o"
 	@echo "... src/UserInput.i"
 	@echo "... src/UserInput.s"
