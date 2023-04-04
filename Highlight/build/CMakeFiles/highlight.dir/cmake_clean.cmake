@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/highlight.dir/src/FileHandler.cpp.o"
   "CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d"
+  "CMakeFiles/highlight.dir/src/ThreadPool.cpp.o"
+  "CMakeFiles/highlight.dir/src/ThreadPool.cpp.o.d"
   "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o"
   "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d"
   "CMakeFiles/highlight.dir/src/UnitTest.cpp.o"

@@ -101,6 +101,9 @@
         "*.tcc": "cpp",
         "memory_resource": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "__bits": "cpp",
+        "future": "cpp",
+        "variant": "cpp"
     }
 }
