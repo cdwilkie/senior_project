@@ -44,7 +44,7 @@ int main (int argc, char** argv) {
     
     
     std::string outFile = UserInput::getFilename();//Prompt for outfile location
-    FileHandler::writeLines(outFile, fileTokens);    //Write lines to outfile
+    FileHandler::writeToHtml(outFile, fileTokens);    //Write lines to outfile
     
 
     return 0;

@@ -19,7 +19,10 @@ public:
     static std::unordered_map<std::wstring, std::wstring> readKeyValues(
             const std::string& filename);
 
-    static void writeLines(const std::string& filename,
+    static void writeToHtml(const std::string& filename,
             const std::vector<std::vector<Tokenizer::Token>>& tokens);
+
+private:
+   static std::wstring escapeHtml(const std::wstring& input);
 
 };//end FileHandler

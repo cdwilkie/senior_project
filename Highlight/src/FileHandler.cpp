@@ -7,6 +7,9 @@
 #include <iostream>
 #include <sstream>
 
+
+
+
 /* readLines() accepts string filename to instantiate
 * std::wifstream file object. Builds std::vector<std::wstring> "lines"
 * to store the contents of each line from the text source. 
@@ -51,19 +54,48 @@ std::unordered_map<std::wstring, std::wstring> FileHandler::readKeyValues(
     return keyValues;
 }
 
-void FileHandler::writeLines(const std::string& filename,
+void FileHandler::writeToHtml(const std::string& filename,
         const std::vector<std::vector<Tokenizer::Token>>& tokens) {
+
     std::wofstream file(filename);
     if (!file.is_open() || !file) {
         throw std::runtime_error("Faild to open file " + filename);
     }
+
+
+
     for (int i = 0; i < tokens.size(); ++i) {
         for (int j = 0; j < tokens[i].size(); ++j) {
-            file << tokens[i][j].word << L" ";
-        }
-        file << std::endl;
-    }
-    std::cout << "Lines written successfully to " << filename << std::endl;
-    file.close();
+ 
+            if (tokens[i][j].tokenID == 200) {
+                file << "<span style=\"font-weight:bold;\">";
+                file << tokens[i][j].word << L" ";
+                file << "</span>";
+            }
 
+            else {
+                file << "<span>";
+                file << tokens[i][j].word << L" ";
+                file << "</span>";
+            }
+        }
+        file << "<br>\n";
+    }
+    file << "</body>\n</html>";
+    file.close();
+    std::cout << "Lines written successfully to " << filename << std::endl;
+
+}
+
+std::wstring FileHandler::escapeHtml(const std::wstring& word) {
+    std::wstring output;
+    output.reserve(word.size());
+    for (const auto& symbol : word) {
+        switch (symbol) {
+            case '<': 
+                output += L"&lt;";
+                break;
+        }
+    }
+    return output;
 }
