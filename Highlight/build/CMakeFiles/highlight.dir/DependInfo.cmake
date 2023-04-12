@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp" "CMakeFiles/highlight.dir/src/FileHandler.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d"
+  "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp" "CMakeFiles/highlight.dir/src/SearchHandler.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/SearchHandler.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp" "CMakeFiles/highlight.dir/src/ThreadPool.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/ThreadPool.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp" "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d"
   "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp" "CMakeFiles/highlight.dir/src/UnitTest.cpp.o" "gcc" "CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d"

@@ -5,6 +5,7 @@
 #include "../include/FileHandler.h"
 #include <fstream>
 #include <iostream>
+#include <sstream>
 
 /* readLines() accepts string filename to instantiate
 * std::wifstream file object. Builds std::vector<std::wstring> "lines"
@@ -24,17 +25,45 @@ std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
     while (std::getline(file, line)) {          //While lines in textsource
         lines.push_back(line);                  //Add extracted line to lines vector
     }//end while lines
+    file.close();
     return lines;                               //Return the populated vector
 }
 
-void FileHandler::writeLines(const std::string& filename, const std::vector<std::wstring>& lines) {
+std::unordered_map<std::wstring, std::wstring> FileHandler::readKeyValues(
+        const std::string& filename) {
+    std::unordered_map<std::wstring, std::wstring> keyValues;
+    std::wifstream file(filename);
+
+    if (!file || !file.is_open()) {
+        throw std::runtime_error("Failed to open file " + filename);
+        return keyValues;
+    }
+    std::wstring line;
+    while (std::getline(file, line)) {
+        std::wistringstream wiss(line);
+        std::wstring key, value;
+        if (std::getline(wiss, key, L'"') && std::getline(wiss, key, L'"') &&
+            std::getline(wiss, value, L'"') && std::getline(wiss, value, L'"')){
+            keyValues[key] = value;
+        }
+    }
+    file.close();
+    return keyValues;
+}
+
+void FileHandler::writeLines(const std::string& filename,
+        const std::vector<std::vector<Tokenizer::Token>>& tokens) {
     std::wofstream file(filename);
     if (!file.is_open() || !file) {
         throw std::runtime_error("Faild to open file " + filename);
     }
-    for (int i = 0; i < lines.size(); ++i) {
-        file << lines[i] << std::endl;
+    for (int i = 0; i < tokens.size(); ++i) {
+        for (int j = 0; j < tokens[i].size(); ++j) {
+            file << tokens[i][j].word << L" ";
+        }
+        file << std::endl;
     }
     std::cout << "Lines written successfully to " << filename << std::endl;
+    file.close();
 
 }

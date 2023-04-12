@@ -1,15 +1,63 @@
-CMakeFiles/highlight.dir/src/main.cpp.o: \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/iostream \
+CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/SearchHandler.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/unordered_map \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/type_traits \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/cpu_defines.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/pstl/pstl_config.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ostream \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ios \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/iosfwd \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stringfwd.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/initializer_list \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/allocator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++allocator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/new_allocator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/new \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/functexcept.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception_defines.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/move.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/memoryfwd.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/alloc_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/alloc_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_construct.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/concept_check.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/debug/assertions.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ptr_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/numeric_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cpp_type_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/type_traits.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/aligned_buffer.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_pair.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/utility.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_function.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/backward/binders.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/functional_hash.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hash_bytes.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable_policy.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/tuple \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/uses_allocator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/invoke.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_algobase.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/debug/debug.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/predefined_ops.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/enable_special_members.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/node_handle.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unordered_map.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/range_access.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/erase_if.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/vector \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_uninitialized.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_vector.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_bvector.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/refwrap.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/vector.tcc \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/string \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stringfwd.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/char_traits.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/postypes.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/cwchar \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
@@ -61,19 +109,6 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/ctype.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/runetype.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/exception \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception_ptr.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception_defines.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cxxabi_init_exception.h \
- /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include/stddef.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/typeinfo \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hash_bytes.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/new \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/move.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/type_traits \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/nested_exception.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/char_traits.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/cstdint \
  /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include/stdint.h \
  /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include-fixed/stdint.h \
@@ -88,63 +123,12 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/clocale \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/locale.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_locale.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/iosfwd \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/cctype \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ios_base.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/atomicity.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr-default.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/sched.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/pthread_impl.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/qos.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/qos.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mach_port_t.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/atomic_word.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_classes.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/string \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/allocator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++allocator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/new_allocator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/functexcept.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cpp_type_traits.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ostream_insert.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cxxabi_forced.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator_base_types.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator_base_funcs.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/concept_check.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/debug/assertions.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_iterator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/type_traits.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ptr_traits.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_function.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/backward/binders.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/numeric_traits.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_algobase.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_pair.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/utility.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/debug/debug.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/predefined_ops.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/refwrap.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/invoke.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/range_access.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/initializer_list \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/basic_string.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/alloc_traits.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/alloc_traits.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_construct.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/string_view \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/functional_hash.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/string_view.tcc \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/string_conversions.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/cstdlib \
@@ -160,8 +144,10 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_mcontext.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/i386/_structs.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h \
@@ -181,50 +167,31 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/errno.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/charconv.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/basic_string.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_classes.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/system_error \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/error_constants.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/stdexcept \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/streambuf \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/streambuf.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/basic_ios.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_facets.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/cwctype \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/ctype_base.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/streambuf_iterator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/ctype_inline.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_facets.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/basic_ios.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ostream.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/istream \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/istream.tcc \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/FileHandler.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/vector \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_uninitialized.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_vector.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_bvector.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/vector.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/unordered_map \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/aligned_buffer.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable_policy.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/tuple \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/uses_allocator.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/enable_special_members.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/node_handle.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unordered_map.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/erase_if.h \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/Tokenizer.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/thread \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/std_thread.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unique_ptr.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr-default.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/sched.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/pthread_impl.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/qos.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/qos.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mach_port_t.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/this_thread_sleep.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/chrono.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ratio \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/limits \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ctime \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/parse_numbers.h \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UserInput.h \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/SearchHandler.h
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/FileHandler.h

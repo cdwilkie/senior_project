@@ -157,17 +157,20 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_vector.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_bvector.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/vector.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/fstream \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/istream \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ios \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/exception \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception_ptr.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cxxabi_init_exception.h \
- /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include/stddef.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/typeinfo \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/nested_exception.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ios_base.h \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/atomicity.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/unordered_map \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/aligned_buffer.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable_policy.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/tuple \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/uses_allocator.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/enable_special_members.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/node_handle.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unordered_map.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/erase_if.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/Tokenizer.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/thread \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/std_thread.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unique_ptr.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/gthr-default.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
@@ -185,6 +188,23 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread/qos.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/qos.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/this_thread_sleep.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/chrono.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ratio \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/limits \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ctime \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/parse_numbers.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/fstream \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/istream \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ios \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/exception \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/exception_ptr.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cxxabi_init_exception.h \
+ /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include/stddef.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/typeinfo \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/nested_exception.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ios_base.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/atomicity.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/atomic_word.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_classes.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/locale_classes.tcc \
@@ -210,4 +230,6 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/basic_file.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++io.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/fstream.tcc \
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/iostream
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/iostream \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/sstream \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/sstream.tcc

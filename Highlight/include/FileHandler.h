@@ -5,6 +5,8 @@
 
 #include <string>
 #include <vector>
+#include <unordered_map>
+#include "Tokenizer.h"
 
 class FileHandler {
 public:
@@ -14,6 +16,10 @@ public:
     */
     static std::vector<std::wstring> readLines(const std::string& filename);
 
-    static void writeLines(const std::string& filename, const std::vector<std::wstring>& lines);
+    static std::unordered_map<std::wstring, std::wstring> readKeyValues(
+            const std::string& filename);
+
+    static void writeLines(const std::string& filename,
+            const std::vector<std::vector<Tokenizer::Token>>& tokens);
 
 };//end FileHandler
