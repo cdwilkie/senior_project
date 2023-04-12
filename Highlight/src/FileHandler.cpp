@@ -62,7 +62,8 @@ void FileHandler::writeToHtml(const std::string& filename,
         throw std::runtime_error("Faild to open file " + filename);
     }
 
-
+    file << "<!DOCTYPE html>\n<html>\n<head>\n"
+        << "<meta charset=\"UTF-8\">\n<title>Output</title>\n</head>\n<body>\n";
 
     for (int i = 0; i < tokens.size(); ++i) {
         for (int j = 0; j < tokens[i].size(); ++j) {
