@@ -88,7 +88,7 @@ void FileHandler::writeToHtml(const std::string& filename,
 
 }
 
-std::wstring FileHandler::escapeHtml(const std::wstring& word) {
+std::wstring FileHandler::_escapeHtml(const std::wstring& word) {
     std::wstring output;
     output.reserve(word.size());
     for (const auto& symbol : word) {

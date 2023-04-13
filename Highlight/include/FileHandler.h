@@ -23,6 +23,6 @@ public:
             const std::vector<std::vector<Tokenizer::Token>>& tokens);
 
 private:
-   static std::wstring escapeHtml(const std::wstring& input);
+   static std::wstring _escapeHtml(const std::wstring& input);
 
 };//end FileHandler
