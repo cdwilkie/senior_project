@@ -7,8 +7,8 @@ void SearchHandler::_searchChunk(std::vector<std::vector<Tokenizer::Token>>&toke
         const std::unordered_map<std::wstring, std::wstring>& rMap, size_t start, size_t end) {
     for (size_t i = start; i < end; ++i) {
         _searchPrefix(tokens[i], pMap);
-        //_searchSuffix();
-        //_searchRoot();
+        _searchSuffix(tokens[i], sMap);
+        _searchRoot(tokens[i], rMap);
     }
 }
 
@@ -46,16 +46,39 @@ void SearchHandler::searchTokens(
 
 }
 
-void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token> &data,
-        const std::unordered_map<std::wstring, std::wstring> &map) {
-    for (int i = 0; i < data.size(); ++i) {
-        for (auto const& [key, value]: map) {
-            if (data[i].word.substr(0, key.length()) == key) {
-                data[i].tokenID=200;
+void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
+        const std::unordered_map<std::wstring, std::wstring>& prefixMap) {
+    for (int i = 0; i < tokens.size(); ++i) {
+        for (auto const& [key, value]: prefixMap) {
+            if (tokens[i].word.length() >= key.length() &&
+                tokens[i].word.substr(0, key.length()) == key) {
+                tokens[i].tokenID=200;
             }
         }
     }
 }
-// searchSuffix
+
+void SearchHandler::_searchSuffix(std::vector<Tokenizer::Token>& tokens,
+        const std::unordered_map<std::wstring, std::wstring>& suffixMap) {
+    for (int i = 0; i < tokens.size(); ++i) {
+        for (auto const& [key, value] : suffixMap) {
+            if (tokens[i].word.length() >= key.length() &&
+                tokens[i].word.substr(tokens[i].word.length() - key.length()) == key) {
+                    tokens[i].tokenID = 200;
+            }
+        }
+    }
+}
+
+void SearchHandler::_searchRoot(std::vector<Tokenizer::Token>& tokens,
+        const std::unordered_map<std::wstring, std::wstring>& rootMap) {
+    for (int i = 0; i < tokens.size(); ++i) {
+        for (auto const& [key, value] : rootMap) {
+            if (tokens[i].word.find(key) != std::string::npos) {
+                tokens[i].tokenID = 200;
+            }
+        }
+    }
+}
 // searchRoot
 // searchDQ

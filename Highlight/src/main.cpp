@@ -4,8 +4,12 @@
 #include "../include/Tokenizer.h"
 #include "../include/SearchHandler.h"
 
+#include "../include/UnitTest.h"
+
 
 int main (int argc, char** argv) {
+
+    auto start = UnitTest::start();//Test start
 
     std::vector<std::wstring> lines;            //Holds file contents, one line per index
     
@@ -22,11 +26,15 @@ int main (int argc, char** argv) {
 
     std::vector<std::vector<Tokenizer::Token>> fileTokens;//2-D Holds tokens from each line
 
-    size_t numThreads = 4;
+    size_t numThreads = 8;
     Tokenizer::tokenizeLines(lines, fileTokens, numThreads);
 
+    //std::vector<std::wstring>().swap(lines);
+    
+    /*
     lines.clear(); //Empty the lines vector
     lines.shrink_to_fit(); //Release memory from lines vector
+    */
 
     /*
     std::string filename = "../data/prefix.txt";
@@ -40,12 +48,13 @@ int main (int argc, char** argv) {
     };
     */
     
-    SearchHandler::searchTokens(fileTokens, 4);
+    SearchHandler::searchTokens(fileTokens, 8);
     
     
-    std::string outFile = UserInput::getFilename();//Prompt for outfile location
+    std::string outFile = "/Users/dustinwilkie/outfile.html";//UserInput::getFilename();//Prompt for outfile location
     FileHandler::writeToHtml(outFile, fileTokens);    //Write lines to outfile
     
-
+    auto stop = UnitTest::stop();
+    UnitTest::duration(start,stop);
     return 0;
 }

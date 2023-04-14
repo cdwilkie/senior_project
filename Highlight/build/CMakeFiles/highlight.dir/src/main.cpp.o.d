@@ -227,4 +227,6 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ctime \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/parse_numbers.h \
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UserInput.h \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/SearchHandler.h
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/SearchHandler.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UnitTest.h \
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/chrono
