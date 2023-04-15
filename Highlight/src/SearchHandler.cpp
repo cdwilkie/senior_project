@@ -1,3 +1,7 @@
+#include <locale>
+#include <algorithm>
+#include <codecvt>
+
 #include "SearchHandler.h"
 #include "FileHandler.h"
 
@@ -52,7 +56,11 @@ void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
         for (auto const& [key, value]: prefixMap) {
             if (tokens[i].word.length() >= key.length() &&
                 tokens[i].word.substr(0, key.length()) == key) {
-                tokens[i].tokenID=200;
+
+                if (caseCompare(tokens[i].word.substr(0, key.length()), key)) {
+                    tokens[i].tokenID=200;
+                }
+                
             }
         }
     }
@@ -80,5 +88,19 @@ void SearchHandler::_searchRoot(std::vector<Tokenizer::Token>& tokens,
         }
     }
 }
-// searchRoot
+
 // searchDQ
+
+bool SearchHandler::caseCompare(const std::wstring& str1, const std::wstring& str2) {
+    std::wstring result1 = str1;
+    for (int i = 0; i < result1.length(); ++i) {
+        result1[i] = std::towlower(result1[i]);
+    }
+
+    std::wstring result2 = str2;
+    for (int i = 0; i < result2.length(); ++i) {
+        result2[i] = std::towlower(result2[i]);
+    }
+
+    return result1 == result2;
+}

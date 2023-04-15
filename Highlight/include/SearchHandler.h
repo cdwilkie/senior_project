@@ -28,4 +28,6 @@ private:
 
     static void _searchRoot(std::vector<Tokenizer::Token>& tokens,
             const std::unordered_map<std::wstring, std::wstring>& rootMap);
+
+    static bool caseCompare(const std::wstring& str1, const std::wstring& str2);
 };
