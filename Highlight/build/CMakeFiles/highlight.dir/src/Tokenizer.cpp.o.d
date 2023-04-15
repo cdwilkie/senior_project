@@ -1,6 +1,6 @@
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.o: \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/Tokenizer.h \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/Tokenizer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/string \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h \

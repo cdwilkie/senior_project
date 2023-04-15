@@ -1,6 +1,6 @@
 CMakeFiles/highlight.dir/src/UserInput.cpp.o: \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UserInput.h \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UserInput.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/string \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h \

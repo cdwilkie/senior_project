@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.26.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dustinwilkie/Documents/GitHub/senior_project/highlight
+CMAKE_SOURCE_DIR = /Users/dustinwilkie/documents/GitHub/senior_project/Highlight
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build
+CMAKE_BINARY_DIR = /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/highlight.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/highlight.dir/progress.make
 include CMakeFiles/highlight.dir/flags.make
 
 CMakeFiles/highlight.dir/src/FileHandler.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/FileHandler.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp
+CMakeFiles/highlight.dir/src/FileHandler.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp
 CMakeFiles/highlight.dir/src/FileHandler.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/highlight.dir/src/FileHandler.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/FileHandler.cpp.o -MF CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d -o CMakeFiles/highlight.dir/src/FileHandler.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/highlight.dir/src/FileHandler.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/FileHandler.cpp.o -MF CMakeFiles/highlight.dir/src/FileHandler.cpp.o.d -o CMakeFiles/highlight.dir/src/FileHandler.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp
 
 CMakeFiles/highlight.dir/src/FileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/FileHandler.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp > CMakeFiles/highlight.dir/src/FileHandler.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp > CMakeFiles/highlight.dir/src/FileHandler.cpp.i
 
 CMakeFiles/highlight.dir/src/FileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/FileHandler.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp -o CMakeFiles/highlight.dir/src/FileHandler.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp -o CMakeFiles/highlight.dir/src/FileHandler.cpp.s
 
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp
+CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/highlight.dir/src/SearchHandler.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/SearchHandler.cpp.o -MF CMakeFiles/highlight.dir/src/SearchHandler.cpp.o.d -o CMakeFiles/highlight.dir/src/SearchHandler.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/highlight.dir/src/SearchHandler.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/SearchHandler.cpp.o -MF CMakeFiles/highlight.dir/src/SearchHandler.cpp.o.d -o CMakeFiles/highlight.dir/src/SearchHandler.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp
 
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/SearchHandler.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp > CMakeFiles/highlight.dir/src/SearchHandler.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp > CMakeFiles/highlight.dir/src/SearchHandler.cpp.i
 
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/SearchHandler.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp -o CMakeFiles/highlight.dir/src/SearchHandler.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp -o CMakeFiles/highlight.dir/src/SearchHandler.cpp.s
 
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp
+CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/highlight.dir/src/ThreadPool.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/ThreadPool.cpp.o -MF CMakeFiles/highlight.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/highlight.dir/src/ThreadPool.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/highlight.dir/src/ThreadPool.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/ThreadPool.cpp.o -MF CMakeFiles/highlight.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/highlight.dir/src/ThreadPool.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp
 
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/ThreadPool.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp > CMakeFiles/highlight.dir/src/ThreadPool.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp > CMakeFiles/highlight.dir/src/ThreadPool.cpp.i
 
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/ThreadPool.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp -o CMakeFiles/highlight.dir/src/ThreadPool.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp -o CMakeFiles/highlight.dir/src/ThreadPool.cpp.s
 
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/Tokenizer.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp
+CMakeFiles/highlight.dir/src/Tokenizer.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/highlight.dir/src/Tokenizer.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/Tokenizer.cpp.o -MF CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d -o CMakeFiles/highlight.dir/src/Tokenizer.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/highlight.dir/src/Tokenizer.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/Tokenizer.cpp.o -MF CMakeFiles/highlight.dir/src/Tokenizer.cpp.o.d -o CMakeFiles/highlight.dir/src/Tokenizer.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp
 
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/Tokenizer.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp > CMakeFiles/highlight.dir/src/Tokenizer.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp > CMakeFiles/highlight.dir/src/Tokenizer.cpp.i
 
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/Tokenizer.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp -o CMakeFiles/highlight.dir/src/Tokenizer.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp -o CMakeFiles/highlight.dir/src/Tokenizer.cpp.s
 
 CMakeFiles/highlight.dir/src/UnitTest.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/UnitTest.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp
+CMakeFiles/highlight.dir/src/UnitTest.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp
 CMakeFiles/highlight.dir/src/UnitTest.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/highlight.dir/src/UnitTest.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/UnitTest.cpp.o -MF CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d -o CMakeFiles/highlight.dir/src/UnitTest.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/highlight.dir/src/UnitTest.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/UnitTest.cpp.o -MF CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d -o CMakeFiles/highlight.dir/src/UnitTest.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp
 
 CMakeFiles/highlight.dir/src/UnitTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/UnitTest.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp > CMakeFiles/highlight.dir/src/UnitTest.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp > CMakeFiles/highlight.dir/src/UnitTest.cpp.i
 
 CMakeFiles/highlight.dir/src/UnitTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/UnitTest.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp -o CMakeFiles/highlight.dir/src/UnitTest.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp -o CMakeFiles/highlight.dir/src/UnitTest.cpp.s
 
 CMakeFiles/highlight.dir/src/UserInput.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/UserInput.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp
+CMakeFiles/highlight.dir/src/UserInput.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp
 CMakeFiles/highlight.dir/src/UserInput.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/highlight.dir/src/UserInput.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/UserInput.cpp.o -MF CMakeFiles/highlight.dir/src/UserInput.cpp.o.d -o CMakeFiles/highlight.dir/src/UserInput.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/highlight.dir/src/UserInput.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/UserInput.cpp.o -MF CMakeFiles/highlight.dir/src/UserInput.cpp.o.d -o CMakeFiles/highlight.dir/src/UserInput.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp
 
 CMakeFiles/highlight.dir/src/UserInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/UserInput.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp > CMakeFiles/highlight.dir/src/UserInput.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp > CMakeFiles/highlight.dir/src/UserInput.cpp.i
 
 CMakeFiles/highlight.dir/src/UserInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/UserInput.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp -o CMakeFiles/highlight.dir/src/UserInput.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp -o CMakeFiles/highlight.dir/src/UserInput.cpp.s
 
 CMakeFiles/highlight.dir/src/main.cpp.o: CMakeFiles/highlight.dir/flags.make
-CMakeFiles/highlight.dir/src/main.cpp.o: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp
+CMakeFiles/highlight.dir/src/main.cpp.o: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp
 CMakeFiles/highlight.dir/src/main.cpp.o: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/highlight.dir/src/main.cpp.o"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/main.cpp.o -MF CMakeFiles/highlight.dir/src/main.cpp.o.d -o CMakeFiles/highlight.dir/src/main.cpp.o -c /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/highlight.dir/src/main.cpp.o"
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/main.cpp.o -MF CMakeFiles/highlight.dir/src/main.cpp.o.d -o CMakeFiles/highlight.dir/src/main.cpp.o -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp
 
 CMakeFiles/highlight.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/main.cpp.i"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp > CMakeFiles/highlight.dir/src/main.cpp.i
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp > CMakeFiles/highlight.dir/src/main.cpp.i
 
 CMakeFiles/highlight.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/main.cpp.s"
-	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp -o CMakeFiles/highlight.dir/src/main.cpp.s
+	/usr/local/opt/gcc/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp -o CMakeFiles/highlight.dir/src/main.cpp.s
 
 # Object files for target highlight
 highlight_OBJECTS = \
@@ -189,7 +189,7 @@ highlight: CMakeFiles/highlight.dir/src/UserInput.cpp.o
 highlight: CMakeFiles/highlight.dir/src/main.cpp.o
 highlight: CMakeFiles/highlight.dir/build.make
 highlight: CMakeFiles/highlight.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable highlight"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable highlight"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/highlight.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/highlight.dir/clean:
 .PHONY : CMakeFiles/highlight.dir/clean
 
 CMakeFiles/highlight.dir/depend:
-	cd /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dustinwilkie/Documents/GitHub/senior_project/highlight /Users/dustinwilkie/Documents/GitHub/senior_project/highlight /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles/highlight.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dustinwilkie/documents/GitHub/senior_project/Highlight /Users/dustinwilkie/documents/GitHub/senior_project/Highlight /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/CMakeFiles/highlight.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/highlight.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/ThreadPool.h \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/ThreadPool.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/queue \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/deque \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_algobase.h \
@@ -231,4 +231,4 @@ CMakeFiles/highlight.dir/src/ThreadPool.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/algorithmfwd.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_tempbuf.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/uniform_int_dist.h \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/../include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/../include/Tokenizer.h

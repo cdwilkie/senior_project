@@ -1,6 +1,7 @@
 #include <locale>
 #include <algorithm>
 #include <codecvt>
+#include <cctype>
 
 #include "SearchHandler.h"
 #include "FileHandler.h"
@@ -8,11 +9,13 @@
 void SearchHandler::_searchChunk(std::vector<std::vector<Tokenizer::Token>>&tokens, 
         const std::unordered_map<std::wstring,std::wstring>&pMap,
         const std::unordered_map<std::wstring, std::wstring>& sMap, 
-        const std::unordered_map<std::wstring, std::wstring>& rMap, size_t start, size_t end) {
+        const std::unordered_map<std::wstring, std::wstring>& rMap,
+        const std::unordered_map<std::wstring, std::wstring>& dqMap, size_t start, size_t end) {
     for (size_t i = start; i < end; ++i) {
         _searchPrefix(tokens[i], pMap);
         _searchSuffix(tokens[i], sMap);
         _searchRoot(tokens[i], rMap);
+        _searchDisq(tokens[i], dqMap);
     }
 }
 
@@ -31,6 +34,10 @@ void SearchHandler::searchTokens(
     std::unordered_map<std::wstring, std::wstring> 
         rootKeyVal = FileHandler::readKeyValues(rootFile);
 
+    std::string dqFile = "../data/dq.txt";
+    std::unordered_map<std::wstring, std::wstring>
+        dqKeyVal = FileHandler::readKeyValues(dqFile);
+
 
 
     const size_t chunkSize = (tokens.size() + numThreads - 1) / numThreads;
@@ -41,7 +48,8 @@ void SearchHandler::searchTokens(
         const int end = std::min(start + chunkSize, tokens.size());
         threads[i] = std::thread(
             _searchChunk, std::ref(tokens), std::cref(prefixKeyVal),
-            std::cref(suffixKeyVal), std::cref(rootKeyVal), start, end);
+            std::cref(suffixKeyVal), std::cref(rootKeyVal), 
+            std::cref(dqKeyVal), start, end);
     }
 
     for (size_t i = 0; i < threads.size(); ++i) {
@@ -52,14 +60,17 @@ void SearchHandler::searchTokens(
 
 void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
         const std::unordered_map<std::wstring, std::wstring>& prefixMap) {
-    for (int i = 0; i < tokens.size(); ++i) {
-        for (auto const& [key, value]: prefixMap) {
-            if (tokens[i].word.length() >= key.length() &&
-                tokens[i].word.substr(0, key.length()) == key) {
+    std::wstring lowerToken;
+    std::wstring lowerPrefix;
 
-                if (caseCompare(tokens[i].word.substr(0, key.length()), key)) {
-                    tokens[i].tokenID=200;
-                }
+    for (auto& token : tokens) {
+        for (auto const& [key, value]: prefixMap) {
+            lowerToken = _toLowerCase(token.word);
+            lowerPrefix = _toLowerCase(key);
+            if (lowerToken.length() >= lowerPrefix.length() &&
+                lowerToken.substr(0, lowerPrefix.length()) == lowerPrefix) {
+
+                    token.tokenID = 200;
                 
             }
         }
@@ -68,11 +79,15 @@ void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
 
 void SearchHandler::_searchSuffix(std::vector<Tokenizer::Token>& tokens,
         const std::unordered_map<std::wstring, std::wstring>& suffixMap) {
-    for (int i = 0; i < tokens.size(); ++i) {
+    std::wstring lowerToken;
+    std::wstring lowerSuffix;
+    for (auto& token : tokens) {
         for (auto const& [key, value] : suffixMap) {
-            if (tokens[i].word.length() >= key.length() &&
-                tokens[i].word.substr(tokens[i].word.length() - key.length()) == key) {
-                    tokens[i].tokenID = 200;
+            lowerToken = _toLowerCase(token.word);
+            lowerSuffix = _toLowerCase(key);
+            if (lowerToken.length() >= lowerSuffix.length() &&
+                lowerToken.substr(lowerToken.length() - lowerSuffix.length()) == lowerSuffix) {
+                    token.tokenID = 200;
             }
         }
     }
@@ -80,27 +95,43 @@ void SearchHandler::_searchSuffix(std::vector<Tokenizer::Token>& tokens,
 
 void SearchHandler::_searchRoot(std::vector<Tokenizer::Token>& tokens,
         const std::unordered_map<std::wstring, std::wstring>& rootMap) {
-    for (int i = 0; i < tokens.size(); ++i) {
+    std::wstring lowerToken;
+    std::wstring lowerRoot;
+    for (auto& token : tokens) {
         for (auto const& [key, value] : rootMap) {
-            if (tokens[i].word.find(key) != std::string::npos) {
-                tokens[i].tokenID = 200;
+            lowerToken = _toLowerCase(token.word);
+            lowerRoot = _toLowerCase(key);
+            if (lowerToken.find(lowerRoot) != std::string::npos) {
+                token.tokenID = 200;
             }
         }
     }
 }
 
-// searchDQ
-
-bool SearchHandler::caseCompare(const std::wstring& str1, const std::wstring& str2) {
-    std::wstring result1 = str1;
-    for (int i = 0; i < result1.length(); ++i) {
-        result1[i] = std::towlower(result1[i]);
+void SearchHandler::_searchDisq(std::vector<Tokenizer::Token>& tokens,
+        const std::unordered_map<std::wstring, std::wstring>& dqMap) {
+    std::wstring lowerToken;
+    std::wstring lowerDQ;
+    for (auto& token : tokens) {
+        for (auto const& [key, value] : dqMap) {
+            lowerToken = _toLowerCase(token.word);
+            lowerDQ = _toLowerCase(key);
+            if (lowerToken.find(lowerDQ) != std::string::npos) {
+                token.tokenID = 404;
+            }
+        }
     }
-
-    std::wstring result2 = str2;
-    for (int i = 0; i < result2.length(); ++i) {
-        result2[i] = std::towlower(result2[i]);
-    }
-
-    return result1 == result2;
 }
+
+std::wstring SearchHandler::_toLowerCase(const std::wstring& input) {
+    std::wstring results;
+
+    
+    for (const auto& letters : input) {
+        results += std::towlower(letters);
+    }
+
+    return results;
+}
+
+

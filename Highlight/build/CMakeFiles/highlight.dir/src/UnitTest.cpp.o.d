@@ -1,6 +1,6 @@
 CMakeFiles/highlight.dir/src/UnitTest.cpp.o: \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp \
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UnitTest.h \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp \
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UnitTest.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/chrono \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/chrono.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ratio \
