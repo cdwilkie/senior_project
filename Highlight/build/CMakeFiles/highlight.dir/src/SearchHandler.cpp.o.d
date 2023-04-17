@@ -1,5 +1,5 @@
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/locale \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/localefwd.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
@@ -209,7 +209,7 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/pstl/glue_algorithm_defs.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/pstl/execution_defs.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/codecvt \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/SearchHandler.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/SearchHandler.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/unordered_map \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ext/aligned_buffer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/hashtable.h \
@@ -225,7 +225,7 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_vector.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_bvector.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/vector.tcc \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/thread \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/std_thread.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unique_ptr.h \
@@ -234,4 +234,4 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ratio \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/limits \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/parse_numbers.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/FileHandler.h
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/FileHandler.h

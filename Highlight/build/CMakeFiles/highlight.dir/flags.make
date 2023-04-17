@@ -4,7 +4,7 @@
 # compile CXX with /usr/local/opt/gcc/bin/g++-12
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include
+CXX_INCLUDES = -I/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include
 
 CXX_FLAGS = -std=c++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
 

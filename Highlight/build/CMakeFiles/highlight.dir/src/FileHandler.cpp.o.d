@@ -1,6 +1,6 @@
 CMakeFiles/highlight.dir/src/FileHandler.cpp.o: \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/FileHandler.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/FileHandler.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/string \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h \
@@ -167,7 +167,7 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/node_handle.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unordered_map.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/erase_if.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/Tokenizer.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/Tokenizer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/thread \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/std_thread.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unique_ptr.h \

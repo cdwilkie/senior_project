@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight
+# Install script for directory: /Users/dustinwilkie/Documents/GitHub/senior_project/highlight
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

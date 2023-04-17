@@ -70,7 +70,11 @@ void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
             if (lowerToken.length() >= lowerPrefix.length() &&
                 lowerToken.substr(0, lowerPrefix.length()) == lowerPrefix) {
 
-                    token.tokenID = 200;
+                token.tokenID = 200;
+
+                if (value != L"null") {
+                    token.word = value;
+                }
                 
             }
         }
@@ -87,7 +91,11 @@ void SearchHandler::_searchSuffix(std::vector<Tokenizer::Token>& tokens,
             lowerSuffix = _toLowerCase(key);
             if (lowerToken.length() >= lowerSuffix.length() &&
                 lowerToken.substr(lowerToken.length() - lowerSuffix.length()) == lowerSuffix) {
-                    token.tokenID = 200;
+                
+                token.tokenID = 200;
+                if (value != L"null") {
+                    token.word = value;
+                }
             }
         }
     }
@@ -102,6 +110,10 @@ void SearchHandler::_searchRoot(std::vector<Tokenizer::Token>& tokens,
             lowerToken = _toLowerCase(token.word);
             lowerRoot = _toLowerCase(key);
             if (lowerToken.find(lowerRoot) != std::string::npos) {
+
+                if (value != L"null") {
+                    token.word = value;
+                }
                 token.tokenID = 200;
             }
         }

@@ -51,7 +51,7 @@ int main (int argc, char** argv) {
     SearchHandler::searchTokens(fileTokens, 8);
     
     
-    std::string outFile = "/Users/dustinwilkie/outfile.html";//UserInput::getFilename();//Prompt for outfile location
+    std::string outFile = "../data/outfile.html";//UserInput::getFilename();//Prompt for outfile location
     FileHandler::writeToHtml(outFile, fileTokens);    //Write lines to outfile
     
     auto stop = UnitTest::stop();

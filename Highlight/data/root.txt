@@ -1,4 +1,4 @@
-"oo" "null"
-"eek" "null"
-"allow" "null"
-"low" "null"
+"Облонских" "Oblonksy"
+"Стива" "Stiva"
+"Степан" "Stepan"
+"Аркадьич" "Arkadyevitch"

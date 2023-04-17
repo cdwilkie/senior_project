@@ -1,5 +1,5 @@
 CMakeFiles/highlight.dir/src/main.cpp.o: \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/iostream \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h \
@@ -200,7 +200,7 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ostream.tcc \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/istream \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/istream.tcc \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/FileHandler.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/FileHandler.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/vector \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_uninitialized.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/stl_vector.h \
@@ -216,7 +216,7 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/node_handle.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unordered_map.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/erase_if.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/Tokenizer.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/Tokenizer.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/thread \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/std_thread.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/unique_ptr.h \
@@ -226,7 +226,7 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/limits \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/ctime \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/parse_numbers.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UserInput.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/SearchHandler.h \
- /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UnitTest.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UserInput.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/SearchHandler.h \
+ /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/../include/UnitTest.h \
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/chrono

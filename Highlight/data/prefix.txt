@@ -1,4 +1,0 @@
-"joe" "joeseph"
-"joey" "joeseph"
-"jo" "joeseph"
-"joie" "joeseph"
