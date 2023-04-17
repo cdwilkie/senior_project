@@ -1,0 +1,3 @@
+/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles/highlight.dir
+/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles/edit_cache.dir
+/Users/dustinwilkie/Documents/GitHub/senior_project/highlight/build/CMakeFiles/rebuild_cache.dir
