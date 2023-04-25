@@ -20,7 +20,7 @@
 std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
     std::vector<std::wstring> lines;            //Vector to hold all unicode lines of text
     std::wifstream file(filename);              //Open filestream for unicode with filename
-    if (!file || !file.is_open()) {                                //If file can't be opened
+    if (!file || !file.is_open()) {             //If file can't be opened
         throw std::runtime_error("Failed to open file " + filename); //Throw error
         return lines;                           //Return the empty vector
     }//end if file error
