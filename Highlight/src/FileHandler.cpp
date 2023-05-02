@@ -10,8 +10,6 @@
 #include <sstream>
 
 
-
-
 /* readLines() accepts string filename to instantiate
 * std::wifstream file object. Builds std::vector<std::wstring> "lines"
 * to store the contents of each line from the text source. 
@@ -118,4 +116,4 @@ std::wstring FileHandler::_escapeHtml(const std::wstring& word) {
         }//end switch symbol
     }//end for every char
     return output;                              //return escaped data
-}
+}//end _escapeHtml()
