@@ -26,7 +26,7 @@ int main (int argc, char** argv) {
 
     std::vector<std::vector<Tokenizer::Token>> fileTokens;//2-D Holds tokens from each line
 
-    size_t numThreads = 8;
+    size_t numThreads = 4;
     Tokenizer::tokenizeLines(lines, fileTokens, numThreads);
 
     //std::vector<std::wstring>().swap(lines);
@@ -48,7 +48,7 @@ int main (int argc, char** argv) {
     };
     */
     
-    SearchHandler::searchTokens(fileTokens, 8);
+    SearchHandler::searchTokens(fileTokens, numThreads);
     
     
     std::string outFile = "../data/outfile.html";//UserInput::getFilename();//Prompt for outfile location

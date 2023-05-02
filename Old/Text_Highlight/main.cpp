@@ -1,4 +1,5 @@
 #include "tokenGen.h"
+#include "UnitTest.h"
 #include <vector>
 
    
@@ -42,8 +43,10 @@ int main (int argc, char** argv) {
 
     else {                                      //Else file opened in read mode
         std::cout << argv[1] << " opened successfully!" << std::endl;
-        std::cout << "\nPlease enter the search argument" << std::endl;
-        std::cin >> keyword;                    //Store user defined keyword
+        //std::cout << "\nPlease enter the search argument" << std::endl;
+        keyword = "Stepan";                    //Store user defined keyword
+
+    auto start = UnitTest::start(); //test start
 
 /************** Generate tokens for each word in file *******************/
 
@@ -71,8 +74,8 @@ int main (int argc, char** argv) {
 
 /************ Collect outfile name and write contents to file ***********/
 
-        std::cout << "Enter a filename for output" << std::endl;
-        std::cin >> outfile;                    //Collect user outfile name
+        //std::cout << "Enter a filename for output" << std::endl;
+        outfile = "outfile.txt";                    //Collect user outfile name
         std::ofstream outs(outfile);            //Outfile stream
         for (int i =0; i < storedTokens.size(); ++i) {
             if (i % 10 == 0) {
@@ -89,8 +92,11 @@ int main (int argc, char** argv) {
             }//end else no match
         }//end for iterate through tokens for output
         std::cout << std::endl;                 //Clear buffer.
-        
+
+        auto stop = UnitTest::stop();
+        UnitTest::duration(start,stop);    
     }//end else file can be read
+
 
     return 0;
 }//end main()

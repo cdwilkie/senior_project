@@ -239,27 +239,32 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o
 
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp
- /usr/local/Cellar/gcc/12.2.0/include/c++/12/cctype
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/cwctype
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/c++config.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/os_defines.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/x86_64-apple-darwin21/bits/cpu_defines.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/pstl/pstl_config.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/ctype.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/runetype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_wctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/__wctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wint_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/ctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/runetype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ct_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wchar_t.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wint_t.h
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/SearchHandler.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/unordered_map
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/type_traits
@@ -346,9 +351,6 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_clock_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_time_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timespec.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_wctype.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/__wctype.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/cstdint
  /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include/stdint.h
  /usr/local/Cellar/gcc/12.2.0/lib/gcc/current/gcc/x86_64-apple-darwin21/12/include-fixed/stdint.h
@@ -364,6 +366,7 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/locale.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_locale.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/iosfwd
+ /usr/local/Cellar/gcc/12.2.0/include/c++/12/cctype
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/ostream_insert.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/cxxabi_forced.h
  /usr/local/Cellar/gcc/12.2.0/include/c++/12/bits/basic_string.h
