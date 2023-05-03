@@ -23,5 +23,6 @@ public:
     * calculates the amount of time that transpired
     * between the two time points
     */
-    static void duration(std::chrono::time_point<std::chrono::high_resolution_clock> start, std::chrono::time_point<std::chrono::high_resolution_clock> stop);
+    static void duration(std::chrono::time_point<std::chrono::high_resolution_clock> start,
+        std::chrono::time_point<std::chrono::high_resolution_clock> stop);
 };
