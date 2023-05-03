@@ -35,18 +35,6 @@ int main (int argc, char** argv) {
     lines.clear(); //Empty the lines vector
     lines.shrink_to_fit(); //Release memory from lines vector
     */
-
-    /*
-    std::string filename = "../data/prefix.txt";
-
-    std::unordered_map<std::wstring, std::wstring> keyValues = FileHandler::readKeyValues(filename);
-    
-    for (auto iter = keyValues.begin(); iter != keyValues.end(); ++iter) {
-        const std::wstring& key = iter->first;
-        const std::wstring& value = iter->second;
-        std::wcout << key << L" : " << value << std::endl;
-    };
-    */
     
     SearchHandler::searchTokens(fileTokens, numThreads);
     
