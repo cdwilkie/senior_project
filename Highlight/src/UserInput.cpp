@@ -13,4 +13,4 @@ std::string UserInput::getFilename() {
     std::cout << "Enter a filename: ";          //Prompt user for filename
     std::cin >> filename;                       //Collect filename from input stream
     return filename;                            //Return filename string
-}
+}//end getFilename()
