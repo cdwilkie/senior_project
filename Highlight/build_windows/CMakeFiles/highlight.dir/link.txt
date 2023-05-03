@@ -1,0 +1,3 @@
+/usr/local/Cellar/cmake/3.26.2/bin/cmake -E rm -f CMakeFiles/highlight.dir/objects.a
+/usr/local/bin/x86_64-w64-mingw32-ar qc CMakeFiles/highlight.dir/objects.a @CMakeFiles/highlight.dir/objects1.rsp
+/usr/local/bin/x86_64-w64-mingw32-g++  -static-libgcc -static-libstdc++ -static -Wl,--whole-archive CMakeFiles/highlight.dir/objects.a -Wl,--no-whole-archive -o highlight.exe -Wl,--out-implib,libhighlight.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/highlight.dir/linkLibs.rsp

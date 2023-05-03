@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 
 project(highlight)
 
+if(WIN32)
+  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++ -static")
+endif()
 
-set(CMAKE_CXX_COMPILER "/usr/local/opt/gcc/bin/g++-12")
 set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
