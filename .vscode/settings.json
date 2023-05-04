@@ -106,5 +106,6 @@
         "future": "cpp",
         "variant": "cpp"
     },
-    "cmake.sourceDirectory": "${workspaceFolder}/Highlight"
+    "cmake.sourceDirectory": "${workspaceFolder}/Highlight",
+    "cmake.configureOnOpen": false
 }

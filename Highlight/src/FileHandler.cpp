@@ -29,6 +29,7 @@ std::vector<std::wstring> FileHandler::readLines(const std::string& filename) {
         lines.push_back(line);                  //Add extracted line to lines vector
     }//end while lines
     file.close();
+    std::cout<<"\nLines Read Successfully from " << filename << std::endl;
     return lines;                               //Return the populated vector
 }//end readLines
 
@@ -60,6 +61,7 @@ std::unordered_map<std::wstring, std::wstring> FileHandler::readKeyValues(
         }//end if correct format
     }//end while lines
     file.close();                               //Close file stream
+    std::cout<<"Lines Read Successfully from - " << filename << std::endl;
     return keyValues;                           //Return map
 }//end readKeyValues
 
@@ -77,7 +79,7 @@ void FileHandler::writeToHtml(const std::string& filename,
     }//end if error opening file
 
     file << "<!DOCTYPE html>\n<html>\n<head>\n" //Write HTML header contents to file
-        << "<meta charset=\"UTF-8\">\n<title>Output</title>\n</head>\n<body>\n";
+        << "<meta charset=\"UTF-8\">\n<title>Search Results</title>\n</head>\n<body>\n";
 
     for (int i = 0; i < tokens.size(); ++i) {   //Iterate through vector
         for (int j = 0; j < tokens[i].size(); ++j) {//Iterate through every token
