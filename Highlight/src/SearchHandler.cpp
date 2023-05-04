@@ -19,10 +19,11 @@ void SearchHandler::_searchChunk(std::vector<std::vector<Tokenizer::Token>>&toke
         const std::unordered_map<std::wstring, std::wstring>& rMap,
         const std::unordered_map<std::wstring, std::wstring>& dqMap, size_t start, size_t end) {
     for (size_t i = start; i < end; ++i) {      //Iterrate through the chunk
+        _searchDisq(tokens[i], dqMap);          //Find Disqualfied term match
         _searchPrefix(tokens[i], pMap);         //Find prefix match
         _searchSuffix(tokens[i], sMap);         //Find Suffix match
         _searchRoot(tokens[i], rMap);           //Find Root match
-        _searchDisq(tokens[i], dqMap);          //Find Disqualfied term match
+        
     }//end for chunk
 }//end _searchChunk
 
@@ -92,9 +93,11 @@ void SearchHandler::_searchPrefix(std::vector<Tokenizer::Token>& tokens,
             if (lowerToken.length() >= lowerPrefix.length() &&
                 lowerToken.substr(0, lowerPrefix.length()) == lowerPrefix) {
 
-                token.tokenID = 200;            //Token Match ID 200
+                if (token.tokenID != 404) {
+                    token.tokenID = 200;        //Token Match ID 200
+                }
 
-                if (value != L"null") {         //If token can be transliterated/normalized
+                if (token.tokenID != 404 && value != L"null") {//If token can be transliterated/normalized
                     token.word = value;         //Transliterate/normalize
                 }//end if transliterate
             }//end if token matches
@@ -121,9 +124,11 @@ void SearchHandler::_searchSuffix(std::vector<Tokenizer::Token>& tokens,
             if (lowerToken.length() >= lowerSuffix.length() &&
                 lowerToken.substr(lowerToken.length() - lowerSuffix.length()) == lowerSuffix) {
                 
-                token.tokenID = 200;            //Token Match, ID=200
+                if (token.tokenID != 404) {
+                    token.tokenID = 200;        //Token Match ID 200
+                }
 
-                if (value != L"null") {         //If token can be transliterated
+                if (token.tokenID != 404 && value != L"null") {//If token can be transliterated
                     token.word = value;         //Transliterate token
                 }//end if transliterated
             }//end if token match
@@ -148,9 +153,11 @@ void SearchHandler::_searchRoot(std::vector<Tokenizer::Token>& tokens,
             lowerRoot = _toLowerCase(key);      //Preprocess root for comparison
             if (lowerToken.find(lowerRoot) != std::string::npos) {
 
-                token.tokenID = 200;            //Token Match, ID=200
-                
-                if (value != L"null") {         //If token can be transliterated
+                if (token.tokenID != 404) {
+                    token.tokenID = 200;        //Token Match ID 200
+                }
+
+                if (token.tokenID != 404 && value != L"null") {//If token can be transliterated
                     token.word = value;         //Transliterate token
                 }//end if transliterate
             }//end if token match

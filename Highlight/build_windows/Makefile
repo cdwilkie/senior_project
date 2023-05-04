@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.2/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.26.2/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.26.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.26.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -273,6 +273,30 @@ src/UserInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInput.cpp.s
 .PHONY : src/UserInput.cpp.s
 
+src/UserInterface.obj: src/UserInterface.cpp.obj
+.PHONY : src/UserInterface.obj
+
+# target to build an object file
+src/UserInterface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.obj
+.PHONY : src/UserInterface.cpp.obj
+
+src/UserInterface.i: src/UserInterface.cpp.i
+.PHONY : src/UserInterface.i
+
+# target to preprocess a source file
+src/UserInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.i
+.PHONY : src/UserInterface.cpp.i
+
+src/UserInterface.s: src/UserInterface.cpp.s
+.PHONY : src/UserInterface.s
+
+# target to generate assembly for a file
+src/UserInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.s
+.PHONY : src/UserInterface.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -324,6 +348,9 @@ help:
 	@echo "... src/UserInput.obj"
 	@echo "... src/UserInput.i"
 	@echo "... src/UserInput.s"
+	@echo "... src/UserInterface.obj"
+	@echo "... src/UserInterface.i"
+	@echo "... src/UserInterface.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

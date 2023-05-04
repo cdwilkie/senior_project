@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.2/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.26.2/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -159,11 +159,26 @@ CMakeFiles/highlight.dir/src/UserInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/UserInput.cpp.s"
 	/usr/local/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp -o CMakeFiles/highlight.dir/src/UserInput.cpp.s
 
+CMakeFiles/highlight.dir/src/UserInterface.cpp.obj: CMakeFiles/highlight.dir/flags.make
+CMakeFiles/highlight.dir/src/UserInterface.cpp.obj: CMakeFiles/highlight.dir/includes_CXX.rsp
+CMakeFiles/highlight.dir/src/UserInterface.cpp.obj: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInterface.cpp
+CMakeFiles/highlight.dir/src/UserInterface.cpp.obj: CMakeFiles/highlight.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build_windows/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/highlight.dir/src/UserInterface.cpp.obj"
+	/usr/local/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/UserInterface.cpp.obj -MF CMakeFiles/highlight.dir/src/UserInterface.cpp.obj.d -o CMakeFiles/highlight.dir/src/UserInterface.cpp.obj -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInterface.cpp
+
+CMakeFiles/highlight.dir/src/UserInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/highlight.dir/src/UserInterface.cpp.i"
+	/usr/local/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInterface.cpp > CMakeFiles/highlight.dir/src/UserInterface.cpp.i
+
+CMakeFiles/highlight.dir/src/UserInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/highlight.dir/src/UserInterface.cpp.s"
+	/usr/local/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInterface.cpp -o CMakeFiles/highlight.dir/src/UserInterface.cpp.s
+
 CMakeFiles/highlight.dir/src/main.cpp.obj: CMakeFiles/highlight.dir/flags.make
 CMakeFiles/highlight.dir/src/main.cpp.obj: CMakeFiles/highlight.dir/includes_CXX.rsp
 CMakeFiles/highlight.dir/src/main.cpp.obj: /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp
 CMakeFiles/highlight.dir/src/main.cpp.obj: CMakeFiles/highlight.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build_windows/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/highlight.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build_windows/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/highlight.dir/src/main.cpp.obj"
 	/usr/local/bin/x86_64-w64-mingw32-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/highlight.dir/src/main.cpp.obj -MF CMakeFiles/highlight.dir/src/main.cpp.obj.d -o CMakeFiles/highlight.dir/src/main.cpp.obj -c /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp
 
 CMakeFiles/highlight.dir/src/main.cpp.i: cmake_force
@@ -182,6 +197,7 @@ highlight_OBJECTS = \
 "CMakeFiles/highlight.dir/src/Tokenizer.cpp.obj" \
 "CMakeFiles/highlight.dir/src/UnitTest.cpp.obj" \
 "CMakeFiles/highlight.dir/src/UserInput.cpp.obj" \
+"CMakeFiles/highlight.dir/src/UserInterface.cpp.obj" \
 "CMakeFiles/highlight.dir/src/main.cpp.obj"
 
 # External object files for target highlight
@@ -193,12 +209,13 @@ highlight.exe: CMakeFiles/highlight.dir/src/ThreadPool.cpp.obj
 highlight.exe: CMakeFiles/highlight.dir/src/Tokenizer.cpp.obj
 highlight.exe: CMakeFiles/highlight.dir/src/UnitTest.cpp.obj
 highlight.exe: CMakeFiles/highlight.dir/src/UserInput.cpp.obj
+highlight.exe: CMakeFiles/highlight.dir/src/UserInterface.cpp.obj
 highlight.exe: CMakeFiles/highlight.dir/src/main.cpp.obj
 highlight.exe: CMakeFiles/highlight.dir/build.make
 highlight.exe: CMakeFiles/highlight.dir/linkLibs.rsp
 highlight.exe: CMakeFiles/highlight.dir/objects1.rsp
 highlight.exe: CMakeFiles/highlight.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build_windows/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable highlight.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dustinwilkie/documents/GitHub/senior_project/Highlight/build_windows/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable highlight.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/highlight.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

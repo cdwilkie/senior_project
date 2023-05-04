@@ -273,6 +273,30 @@ src/UserInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInput.cpp.s
 .PHONY : src/UserInput.cpp.s
 
+src/UserInterface.o: src/UserInterface.cpp.o
+.PHONY : src/UserInterface.o
+
+# target to build an object file
+src/UserInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.o
+.PHONY : src/UserInterface.cpp.o
+
+src/UserInterface.i: src/UserInterface.cpp.i
+.PHONY : src/UserInterface.i
+
+# target to preprocess a source file
+src/UserInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.i
+.PHONY : src/UserInterface.cpp.i
+
+src/UserInterface.s: src/UserInterface.cpp.s
+.PHONY : src/UserInterface.s
+
+# target to generate assembly for a file
+src/UserInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/highlight.dir/build.make CMakeFiles/highlight.dir/src/UserInterface.cpp.s
+.PHONY : src/UserInterface.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... src/UserInput.o"
 	@echo "... src/UserInput.i"
 	@echo "... src/UserInput.s"
+	@echo "... src/UserInterface.o"
+	@echo "... src/UserInterface.i"
+	@echo "... src/UserInterface.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

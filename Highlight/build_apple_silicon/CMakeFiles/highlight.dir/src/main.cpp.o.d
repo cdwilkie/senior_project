@@ -430,4 +430,5 @@ CMakeFiles/highlight.dir/src/main.cpp.o: \
   /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UserInput.h \
   /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/Tokenizer.h \
   /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/SearchHandler.h \
+  /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UserInterface.h \
   /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/../include/UnitTest.h

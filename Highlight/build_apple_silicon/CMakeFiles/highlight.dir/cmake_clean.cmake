@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/highlight.dir/src/UnitTest.cpp.o.d"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o"
   "CMakeFiles/highlight.dir/src/UserInput.cpp.o.d"
+  "CMakeFiles/highlight.dir/src/UserInterface.cpp.o"
+  "CMakeFiles/highlight.dir/src/UserInterface.cpp.o.d"
   "CMakeFiles/highlight.dir/src/main.cpp.o"
   "CMakeFiles/highlight.dir/src/main.cpp.o.d"
   "highlight"
