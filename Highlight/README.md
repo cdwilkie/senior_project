@@ -21,6 +21,22 @@ Output is written to data/outfile.html, where matching tokens have been written
 in bold and non-matching tokens are written in the standard text
 
 
+HOW TO USE
+Program is distributed in a folder/package called "Highlight". Root directory of program contains binaries/executables for MacOS and Windows. Save "Highlight" in the desired location. Ensure current working directory is same direcotry where "Highlight" is stored.
+
+Source includes CMake file to compile on MacOS systems and specifies a C++17 build, though technologies utilized in program are C++11 compatible.
+
+Source to scan should be stored in the "Data" directory and should be a .txt file. Search parameters are stored within the "suffix.txt", "prefix.txt", "root.txt", and "dq.txt". Each line of those files should be in format "key" "value" for transliteration/standardization or in the format "key" "null" for highlighting.
+
+If the program is initialized from the correct directory, the local pathname ../data/filename can be used at program launch to open the file for seaching. Search parameters are automatically opened and parsed and all results are stored in the directory results (../results/results.html). If the results are needed for future reference, alter the filename to prevent overwriting during next program execution.
+
+To view search results, a browser or HTML viewer will be required. Search results are stored within HTML elements, and without an appropriate viwer, the results are obfuscated.  In a browswer window, results are displayed, where matches are bold.
+
+
+
+
+
+
 /****************** Brain Storming!! **********************
 * Must Haves:
     - Identify User-Definable Text and Highlight it

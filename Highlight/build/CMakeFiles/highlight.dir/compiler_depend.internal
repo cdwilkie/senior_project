@@ -3,7 +3,8 @@
 
 CMakeFiles/highlight.dir/src/FileHandler.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/FileHandler.cpp
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/FileHandler.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/FileHandler.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/FileHandler.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -371,7 +372,7 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error
@@ -438,6 +439,7 @@ CMakeFiles/highlight.dir/src/FileHandler.cpp.o
 
 CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/SearchHandler.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/SearchHandler.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwctype
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -466,7 +468,7 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/SearchHandler.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/SearchHandler.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd
@@ -806,17 +808,18 @@ CMakeFiles/highlight.dir/src/SearchHandler.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwchar
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/FileHandler.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/FileHandler.h
 
 CMakeFiles/highlight.dir/src/ThreadPool.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/ThreadPool.cpp
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/ThreadPool.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/ThreadPool.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/ThreadPool.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -1186,11 +1189,12 @@ CMakeFiles/highlight.dir/src/ThreadPool.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/condition_variable
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
 
 CMakeFiles/highlight.dir/src/Tokenizer.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/Tokenizer.cpp
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/Tokenizer.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -1610,7 +1614,8 @@ CMakeFiles/highlight.dir/src/Tokenizer.cpp.o
 
 CMakeFiles/highlight.dir/src/UnitTest.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UnitTest.cpp
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UnitTest.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UnitTest.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UnitTest.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
@@ -2027,7 +2032,8 @@ CMakeFiles/highlight.dir/src/UnitTest.cpp.o
 
 CMakeFiles/highlight.dir/src/UserInput.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInput.cpp
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UserInput.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInput.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UserInput.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -2444,6 +2450,7 @@ CMakeFiles/highlight.dir/src/UserInput.cpp.o
 
 CMakeFiles/highlight.dir/src/UserInterface.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/UserInterface.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/UserInterface.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -2857,10 +2864,11 @@ CMakeFiles/highlight.dir/src/UserInterface.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UserInterface.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UserInterface.h
 
 CMakeFiles/highlight.dir/src/main.cpp.o
  /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/src/main.cpp
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/src/main.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site
@@ -3274,7 +3282,7 @@ CMakeFiles/highlight.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/FileHandler.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/FileHandler.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map
@@ -3285,11 +3293,11 @@ CMakeFiles/highlight.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UserInput.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/Tokenizer.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/SearchHandler.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UserInterface.h
- /Users/dustinwilkie/Documents/GitHub/senior_project/highlight/include/UnitTest.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UserInput.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/Tokenizer.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/SearchHandler.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UserInterface.h
+ /Users/dustinwilkie/documents/GitHub/senior_project/Highlight/include/UnitTest.h
 

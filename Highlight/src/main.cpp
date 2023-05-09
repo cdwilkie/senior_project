@@ -31,7 +31,7 @@ int main (int argc, char** argv) {
 
     std::vector<std::vector<Tokenizer::Token>> fileTokens;//2-D Holds tokens from each line
 
-    size_t numThreads = 4;                      //Set desired thread count
+    size_t numThreads = 1;                      //Set desired thread count
     UserInterface::tokenizeStatus(inFile);      //Notify user of status
     Tokenizer::tokenizeLines(lines, fileTokens, numThreads);//Tokenize source
 
